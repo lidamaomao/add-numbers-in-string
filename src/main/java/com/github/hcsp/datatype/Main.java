@@ -9,15 +9,5 @@ public class Main {
     // 给出两个数字字符串a和b，返回其中的数字相加后的字符串结果。
     // 例如，给定a="123",b="456"，返回"579"，因为123+456=579
     // 注意，若参数为null，则当作0处理，即add("123", null)=="123", add(null, null)=="0"
-    public static String add(String a, String b) {
-        int a_int = 0;
-        int b_int = 0;
-        if(a != null) {
-            a_int = Integer.parseInt(a);
-        }
-        if(b != null) {
-           b_int = Integer.parseInt(b);
-        }
-        return Integer.toString(a_int + b_int);
-    }
+    public static String add(String a, String b) {}
 }
